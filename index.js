@@ -30,3 +30,6 @@ app.use("/", userRoute);
 app.use("/products", productRoute);
 
 app.listen(2000, () => console.log("server connected to port 2000"));
+
+
+export default app;
